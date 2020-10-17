@@ -1,0 +1,39 @@
+
+		body{
+			background: url(http://labarberia.com/wp-content/uploads/2019/12/bg_barberia.jpg);
+			background-repeat: round;
+		}
+
+		.row {
+			margin-bottom: 5px;
+		}
+
+		.my-menu div .hamb {
+			width: 500px;
+		}
+
+		.nav-bar {
+			text-align: right;
+			font-size: 25px;
+			padding: 10px;
+			background-color: #e64a19;
+		}
+
+		.nav-bar a {
+			color: white !important;
+			text-decoration: none !important;
+		}
+
+		.principales {
+			padding: 20px 10px;
+			text-align: center;
+			margin: 0 auto;
+			color: white;
+		}
+
+		.menu a{
+			color: #ffff;
+			padding: 15px;
+
+		}
+			

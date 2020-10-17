@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <meta charset="utf-8"></meta>
+                <!-- CSS only -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+       
+
+        <meta name="viewport" content="width-divice-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1.0"></meta> 
+	
+	<link rel="stylesheet" type="text/css" href="management/css/estilos.css"/>
+	<link rel="stylesheet" type="text/css" href="management/css/contactenos.css"/>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    </h:head>
+    <style>
+        h:body{
+            /*background: url(http://labarberia.com/wp-content/uploads/2019/12/bg_barberia.jpg);*/
+            background-repeat: round;
+            background: red;
+        }
+
+    </style>
+    <h:body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+		<a class="navbar-brand" href="Inicio.html">Inicio</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+		aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Barberia_Prueba/faces/serviciossinuser.xhtml">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Barberia_Prueba/faces/nosotros.xhtml">Nuestro equipo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Barberia_Prueba/faces/mision.xhtml">Proyección</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Barberia_Prueba/faces/contactenos.xhtml">Comunícate</a>
+                    </li>
+                </ul>
+	</div>
+</nav>
+        <br></br>
+<div class="container">
+	<div class="row">
+		<div class="col imagen_contactenos">
+			<h2 class="display-3 text-center">Contactenos</h2>
+		</div>
+	</div>
+    <br></br>
+	<div class="row">
+			<div class="col-md-8 col-sm-5 ancho">
+			<div class="carousel slide" id="principial-carousel" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#principial-carousel" data-slide-to="0" class="active"></li>
+					<li data-target="#principial-carousel" data-slide-to="1" class="active"></li>
+					<li data-target="#principial-carousel" data-slide-to="2" class="active"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+                                            <img src="management/img/hola.jpg"></img>
+					</div>
+					<div class="carousel-item ">
+						<img src="management/img/8.jpg"></img>
+					</div>
+					<div class="carousel-item ">
+						<img src="management/img/9.jpg"></img>
+					</div>
+				</div>
+				<a href="#principial-carousel" class="carousel-control-prev" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Anterior</span>
+				</a>
+				<a href="#principial-carousel" class="carousel-control-next" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Siguiente</span>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+            <br></br>
+	<div class="row">
+		<div class="col-md-4 col-sm-5">
+			<div class="card grande" style="width: 18rem;">
+				<img class="card-img-top imagen " src="management/img/ubicacion.png" alt="Card image cap"></img>
+				<div class="card-body">
+					<h5 class="card-title">Visitanos</h5>
+					<p class="card-text">Calle 8 sur # 38-70</p>
+					<a href="#" class="btn btn-primary">Ir a Gooogle maps</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4  col-sm-5">
+			<div class="card grande" style="width: 18rem;">
+                            <img class="card-img-top imagen" src="management/img/contrato.png" alt="Card image cap"></img>
+				<div class="card-body">
+					<h5 class="card-title">Escribenos</h5>
+					<p class="card-text">jccoronado29@misena.edu.co</p>
+					<a href="#" class="btn btn-primary">Enviar correo</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4 col-sm-5">
+			<form name="fvalida">
+				<label for="nombre">Nombre:</label>
+				<input class="form-control" id="nombre" type="text" name="nombre"></input>
+
+				<label for="email">Email:</label>
+				<input class="form-control"  id="email" type="text" name="email"></input>
+
+				<label>
+                                    <input type="checkbox"> Recordarme </input>
+				</label>
+				<div class="md-form">
+					<textarea id="form7" class="md-textarea form-control" rows="3"></textarea>
+					<label for="form7">Agregar texto</label>
+				</div>
+				<button type="button" class="btn btn-success"  onclick="contactenos();">Enviar</button>
+			</form>		
+		</div>
+		<div class="col-md-4 col-sm-5">
+			<div class="card grande" style="width: 18rem;">
+                            <img class="card-img-top imagen" src="management/img/llamar.png" alt="Card image cap"></img>
+				<div class="card-body">
+					<h5 class="card-title">Llámanos</h5>
+					<p class="card-text">Celular: +57 3176594473</p>
+					<a href="#" class="btn btn-primary">Llamar</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4  col-sm-5 ">
+			<div class="card grande" style="width: 18rem;">
+                            <img class="card-img-top imagen" src="management/img/seguidores.png" alt="Card image cap"></img>
+				<div class="card-body">
+					<h5 class="card-title">Síguenos</h5>
+					<img src="management/img/twuit.png" class="imagen_uno"></img>
+					<img src="management/img/instagram.png" class="imagen_uno"></img>
+					<img src="management/img/whatsapp.png" class="imagen_uno"></img>
+                                        <br></br>
+                                        <br></br>
+					<a href="#" class="btn btn-primary">Presiona aqui</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+             <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+             <!-- JS, Popper.js, and jQuery -->
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="management/js/validacaciones.js"></script>
+
+    </h:body>
+</html>
+

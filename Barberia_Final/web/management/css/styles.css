@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(http://labarberia.com/wp-content/uploads/2019/12/bg_barberia.jpg);
+    background-repeat: round;
+    width: 100%;
+    height: 100vh;
+    /*color: #fff;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Muli', sans-serif;        
+}
+
+.cod-container {
+    background: #fff;
+    width: 380px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.form-header {
+    background: #222d2c;
+    text-align: center;
+    padding: 30px 0 40px;
+    clip-path: polygon(0 0, 100% 0, 100% 74%, 0 100%);
+}
+
+.form-header h1 {
+    color: #fff;
+    margin-top: 5px;
+}
+
+.form-header span {
+    color: #00ffe2;
+}
+
+.cod-form {
+    padding: 10px 40px 40px;
+}
+
+.form-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    overflow: hidden;
+    margin-bottom: 32px;
+    font-family: 'Raleway', sans-serif;
+    color: #131111;
+}
+
+h3 {
+    position: relative;;
+    display: inline-block;
+    color: #131111;
+    padding: 0 10px;
+}
+
+h3::after,
+h3::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #3d1f72;
+    top: 0.5em;
+}
+
+h3::after {
+    left: 100%;
+}
+h3::before {
+    right: 100%;
+}
+
+.cod-form {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+/*#unico{
+    width: 10%;
+    border: none;
+    border-radius: 0 5px;
+    border-left: 1px solid #3d1f72;
+    border-bottom: 1px solid #3d1f72;
+}*/
+
+input[type="number"],
+input[type="date"],
+input[type="email"],
+input[type="text"],
+input[type="password"] {
+    border: none;
+    border-radius: 0 5px;
+    border-left: 1px solid #3d1f72;
+    border-bottom: 1px solid #3d1f72;
+    width: 100%; 
+}
+
+.label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 14px;
+    color: #131111;
+    padding-left: 10px;
+    cursor: text;
+    transition: all .3s ease;
+}
+.radios{
+     position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 14px;
+    color: #131111;
+    padding-left: 10px;
+    cursor: text;
+    transition: all .3s ease;
+}
+
+.form-input:focus + label {
+    top: -20px;
+    font-size: 12px;
+    color: #222d2c;
+}
+
+/* ----- ----- PARA AGREGAR CON JAVASCRIPT ----- ----- */
+
+.active {
+    top: -14px;
+    font-size: 17px;
+    color: #ab5dec;
+}
+
+.error {
+    color: #ff0000;
+}
+
+/* ----- ----- FIN ----- ----- */
+
+button[type="button"] {
+    background: none;
+    border:  none;
+    background:#485f5d  ;
+    font-weight: 700;
+    color: white;
+    width: 100%;
+    font-size: 14px;
+    padding: 15px 0;
+    margin-bottom: 16px;
+    border-radius: 50px;
+    transition: all .5s ease;
+}
+button[type="button"]:hover {
+    background:#222d2c;
+    color: #00ffe2;
+    cursor: pointer;
+}
+
+.input-group > p {
+    color: black;
+    text-align: center;
+    font-size: 14px;
+}
+
+.input-group p > a {
+    text-decoration: none;
+    color: black;
+}
+.input-group p > a:hover {
+    text-decoration: underline;
+    color: #00ffe2;
+}
+
+.form-content {
+    display:  none;
+}
+
+.form-content:nth-child(2) {
+    display: block;
+}
+
+
+
+

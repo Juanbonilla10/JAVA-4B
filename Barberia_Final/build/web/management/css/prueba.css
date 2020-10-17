@@ -1,0 +1,53 @@
+.unico .contenedor{
+	background: #33C9D8;
+    padding: 20px;
+    border: 1px solid rgba(255,255,255,.25);
+    height: 20px;
+}
+ #colorpr{
+	background: #f4c400;
+}
+#colors{
+	background: #e03e39;
+}
+.contenedor .conte{
+
+
+}
+.tres{
+	height: 100%;
+}
+.conte div:hover{
+	cursor: pointer;
+	color: white;
+}
+.conte div h4 a:hover{
+	cursor: pointer;
+	color: white;
+}
+footer{
+	margin-top: 17px;
+}
+.foot{
+		    font-family: 'Montserrat';
+		        padding: 18px;
+
+}
+.redes ul{
+	list-style: none;
+}
+.redes ul li{
+	    margin-top: 14px;
+}
+.redes ul li em{
+	    margin-left: 14px;
+}
+.redes ul li img{
+	width: 30px;
+}
+.footers{
+	text-align: center;
+}
+.delei{
+	background: #e6e5e5;
+}

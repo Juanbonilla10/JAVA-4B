@@ -1,0 +1,243 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+}
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url(http://labarberia.com/wp-content/uploads/2019/12/bg_barberia.jpg);
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#sidebar {
+    
+    background: #804000;
+    color: #fff;
+    transition: all 0.3s;
+     opacity:75%;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #804000;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #804000;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+#sidebar ul li a:hover {
+    color: #804000;
+    background: #fff;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #fff;
+    background: #804000;
+}
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #6d7fcc;
+}
+
+.arte{
+  margin-left: 172px;
+}
+.redes_uno a img{
+  width: 70px;
+  padding: 0px 0px 0px 25px;
+}
+.pa a img{
+  width: 11%;
+}
+.tituloser {
+  color: #EECE8A;
+}
+.one{
+  background: url(http://labarberia.com/wp-content/uploads/2019/12/jazzbar.jpg);
+  max-height: 320px;
+  min-height: 320px;
+
+}
+.dos{
+  background: url(http://labarberia.com/wp-content/uploads/2019/12/spa.jpg);
+  max-height: 320px;
+  min-height: 320px;
+
+}
+.tres{
+  background: url(http://labarberia.com/wp-content/uploads/2019/12/barbershop.jpg);
+  max-height: 320px;
+  min-height: 320px;
+
+}
+.cuatro{
+  background: url(http://labarberia.com/wp-content/uploads/2019/12/giftcar.jpg);
+  max-height: 320px;
+  min-height: 320px;
+
+}
+.vamos{
+  background: url(http://labarberia.com/wp-content/uploads/2019/12/Captura-de-Pantalla-2019-12-08-a-las-8.50.54-p.-m..png);
+  
+
+      height: 385px;
+}
+.derepe{
+      margin: 0px 0px 243px;
+      margin-bottom: 0px;
+        height: 209px;
+        }
+.ordenar{
+    color: #f4dbad;
+      
+    margin: auto;
+      padding-top: 100px;
+    }
+
+.indicador{
+      margin-top: 158px;
+      height: 70px;
+      width: 100%;
+      margin-left: 342px;
+      text-align: center;
+    }
+
+    #indi{
+   height: 70px;
+ }
+ .solo{
+
+   background: #481412;
+   text-align: center;
+   margin: auto;
+ }
+ .solo p{
+      margin-top: 20%;
+ }
+
+ #ese{
+  height: 70px;
+}
+
+.vamos div{
+  height: 55px;
+      width: 500px;
+      }
+
+.var1{
+  background: url(http://labarberia.com/wp-content/uploads/2019/12/08.jpg);
+  
+}
+.var2{
+  background: url(http://labarberia.com/wp-content/uploads/2019/12/07.jpg);
+  
+}
+.var3{
+  background: url(http://labarberia.com/wp-content/uploads/2019/12/01.jpg);
+  
+}
+.pum {
+  background: #000000;
+      border-bottom: 1px solid white;
+      border-top: 1px solid white;
+}
+.per{
+  color:#EECE8A;
+}
+.ti div{
+  margin-top: 40px;
+}
+.parallax{
+      background: url(https://www.beautymarket.es/peluqueria/fotos/13996_notbmp2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    clear: both;
+    /* margin-top: 732px; */
+    /* padding-top: 75px; */
+    padding: 67px;
+     margin: auto;
+    margin-top: 35px;
+    color: white;
+        height: 11%;
+}
+.parallax p{
+  color: black;
+    font-weight: 900;
+    font-family: cursive;
+  text-align: center;
+
+}
+.card-body h4{
+      margin: 10px 0px 0px 91px;
+}
+.card-body p{
+  font-size: 17px;
+  max-height: 188px;
+    min-height: 169px;
+}

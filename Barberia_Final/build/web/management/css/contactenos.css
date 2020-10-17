@@ -1,0 +1,156 @@
+*{
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box; 
+	-box-sizing: border-box;
+
+}
+body{
+	background: url(http://labarberia.com/wp-content/uploads/2019/12/bg_barberia.jpg);
+	background-repeat: round;
+}
+
+.imagen_contactenos{
+	background: url(http://labarberia.com/wp-content/uploads/2019/12/bg_bb4.jpg);
+}
+.fixed-top{
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 1300;
+}
+
+.imagen_contactenos h2{
+	color: white;
+}
+.imagen{
+	width: 100px;
+	margin: auto;
+}
+.imagen_uno{
+	width: 31px;
+	margin-left: 35px;
+}
+.grande{
+	margin-left: 30px;
+	background: none;
+	border: 1px solid wheat;
+	color: wheat;
+}
+form {
+	color: white;
+	margin-left: 39px;
+}
+.carta{
+	margin: auto;
+}
+.ancho{
+	margin: auto;
+}
+.md-textarea{
+	max-height: 100px;
+}
+.radius{
+	background: linear-gradient(to right, #ff020d,#004389);
+	border-radius: 50%;
+	padding: 7px;
+}
+.radius img{
+	border-radius: 100%;
+}
+.cambio{
+	text-align: center;
+    color: wheat;
+    margin-top: 27px;
+}
+.figure-caption{
+	  text-align: center;
+	  color: white;
+}
+.tri{
+	text-align: center;
+	width: 90%;
+    margin: auto;
+}
+.fa{
+	margin: 0px 10px 0px 14px;
+	cursor: pointer;
+	color: wheat;
+}
+figcaption p{
+	font-size: 18px;
+	color: wheat;
+	
+}
+figcaption p:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.fa-shopping-cart:hover{
+	transform: rotate(-10deg);
+}
+figure img:hover{
+	    opacity: 87%;
+	    cursor: pointer;
+
+}
+.pepo li{
+	    margin: 0px 36px 0px 36px;
+}
+.pepo li a{
+	color: wheat;
+	        font-size: 22px;
+}
+.tie {
+	text-align: center;
+}
+.izquierda{
+	float: left;
+	color: white;
+}
+.derecha{
+	float: right;
+	color: white;
+}
+.o h3{
+	text-align: center;
+	color: wheat;
+}
+.distancia {
+	    margin-bottom: 23px;
+	    background: rgb(10, 14, 15);
+	    border: 1px solid white;
+	    max-height: 170px;
+	    min-height: 170px;
+
+}
+.soli{
+	    border-bottom: 1px solid;
+}
+.derecha img{
+	    margin-top: 15px;
+}
+.modal-content{
+	    margin-top: 105px;
+	        margin-left: 19px;
+}
+.outt{
+	display: none;
+}
+.input-group select{
+	    height: 38px;
+}
+.sopas div{
+	margin-top: 10px;
+}
+.tabla{
+	background: white;
+	
+}
+.elim{
+	display: none;
+}
+.pero{
+	display: none;
+}

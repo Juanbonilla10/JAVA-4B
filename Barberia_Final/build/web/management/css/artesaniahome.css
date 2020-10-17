@@ -1,0 +1,112 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: content-box;
+}
+body{
+	/*background: url(http://labarberia.com/wp-content/uploads/2019/12/bg_barberia.jpg);*/
+}
+.color{
+	font-family: 'Montserrat';
+	font-size: 15px;
+}
+.envio{
+	    text-align: center;
+	    background: #f0f1e0;
+}
+.comienzo{
+	    width: 101px;
+
+}
+.solo p{
+	    float: right;
+}
+.iconoss{
+	width: 56px;
+}
+.delei{
+	background: #e6e5e5;
+}
+.bajar{
+	    margin-top: 18px;
+}
+.main-navigation .main-menu{
+	display: inline-block;
+	margin-left: 16%;
+		
+		
+}
+.main-navigation .main-menu .main-item{
+	display: inline-block;
+	    padding: 10px;
+	        width: 145px;
+	    margin: 0px 27px 0px 26px;
+	    color: black;
+	    
+}
+.main-navigation .main-menu .main-item a{
+	list-style: none;
+	color: black;
+	font-family: "Montserrat",sans-serif;
+}
+.carrusel{
+	    margin-left: 17%;
+}
+.titulo{
+	    font-family: "Montserrat",sans-serif;
+	    text-align: center;
+	        padding: 23px;
+	        letter-spacing: 5px;
+}
+.figure-caption{
+	text-align: center;
+}
+.imag{
+	    margin-left: 11%;
+}
+.unica{
+	width: 100%;
+}
+footer{
+	margin-top: 17px;
+}
+.foot{
+		    font-family: 'Montserrat';
+		        padding: 18px;
+
+}
+.foot:hover{
+	cursor: pointer;
+	background: #d5cfcc;
+}
+.redes ul{
+	list-style: none;
+
+}
+.redes ul li{
+	    margin-top: 14px;
+}
+.redes ul li em{
+	    margin-left: 14px;
+}
+.redes ul li img{
+	width: 30px;
+}
+.footers{
+	text-align: center;
+}
+.iconoss:hover{
+	cursor: pointer;
+}
+.comienzo:hover{
+	cursor: pointer;
+}
+.mover{
+	margin-left: 7px;
+}
+
+@media (max-width: 1024px){
+	.carrusel{
+		margin-left: 0px;
+	}
+}
